@@ -9,100 +9,100 @@ import { SparklesText } from "./magicui/sparkles-text";
 export function Guide() {
     const data = [
         {
-            title: "Step 1: Choose Your AI Model",
+            title: "Step 1: Add Client & Project",
             content: (
                 <div>
                     <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-                        Select from powerful AI models including ByteDance's text-to-image, image-to-video, and other cutting-edge creative AI tools. No technical setup required.
+                        Create a client, then add a project with your preferred billing method (hourly or fixed). Set your hourly rate or project fee and currency.
                     </p>
                     <div className="grid grid-cols-2 gap-4">
                         <div className="h-20 w-full rounded-lg bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center md:h-44 lg:h-60">
-                            <span className="text-white font-semibold text-sm">Text-to-Image</span>
+                            <span className="text-white font-semibold text-sm">New Client</span>
                         </div>
                         <div className="h-20 w-full rounded-lg bg-gradient-to-br from-green-500 to-teal-600 flex items-center justify-center md:h-44 lg:h-60">
-                            <span className="text-white font-semibold text-sm">Image-to-Video</span>
+                            <span className="text-white font-semibold text-sm">New Project</span>
                         </div>
                         <div className="h-20 w-full rounded-lg bg-gradient-to-br from-pink-500 to-rose-600 flex items-center justify-center md:h-44 lg:h-60">
-                            <span className="text-white font-semibold text-sm">Style Transfer</span>
+                            <span className="text-white font-semibold text-sm">Hourly / Fixed</span>
                         </div>
                         <div className="h-20 w-full rounded-lg bg-gradient-to-br from-orange-500 to-red-600 flex items-center justify-center md:h-44 lg:h-60">
-                            <span className="text-white font-semibold text-sm">Image Upscale</span>
+                            <span className="text-white font-semibold text-sm">Rate & Currency</span>
                         </div>
                     </div>
                 </div>
             ),
         },
         {
-            title: "Step 2: Simple Interface",
+            title: "Step 2: Track Time Effortlessly",
             content: (
                 <div>
                     <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-                        Our clean, intuitive interface eliminates the complexity of raw APIs and coding. Just input your creative vision and let our AI do the heavy lifting.
+                        Use the built-in timer for tasks or add manual time entries. Edit or delete logs anytime. View your daily, weekly, and monthly timesheets.
                     </p>
                     <div className="mb-8">
                         <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-                            ✨ Drag & drop file uploads
+                            ⏱️ One-click start/stop timer
                         </div>
                         <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-                            🎨 Natural language prompts
+                            ➕ Add manual time entries
                         </div>
                         <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-                            ⚡ One-click processing
+                            ✏️ Edit and delete logs
                         </div>
                         <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-                            🎯 Real-time preview
+                            📅 Timesheets: day, week, month
                         </div>
                     </div>
                     <div className="grid grid-cols-2 gap-4">
                         <div className="h-20 w-full rounded-lg bg-gradient-to-br from-indigo-500 to-blue-600 flex items-center justify-center md:h-44 lg:h-60">
-                            <span className="text-white font-semibold text-sm">Upload Area</span>
+                            <span className="text-white font-semibold text-sm">Start Timer</span>
                         </div>
                         <div className="h-20 w-full rounded-lg bg-gradient-to-br from-emerald-500 to-green-600 flex items-center justify-center md:h-44 lg:h-60">
-                            <span className="text-white font-semibold text-sm">Prompt Input</span>
+                            <span className="text-white font-semibold text-sm">Manual Entry</span>
                         </div>
                         <div className="h-20 w-full rounded-lg bg-gradient-to-br from-violet-500 to-purple-600 flex items-center justify-center md:h-44 lg:h-60">
-                            <span className="text-white font-semibold text-sm">Settings Panel</span>
+                            <span className="text-white font-semibold text-sm">Edit Logs</span>
                         </div>
                         <div className="h-20 w-full rounded-lg bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center md:h-44 lg:h-60">
-                            <span className="text-white font-semibold text-sm">Generate Button</span>
+                            <span className="text-white font-semibold text-sm">View Timesheet</span>
                         </div>
                     </div>
                 </div>
             ),
         },
         {
-            title: "Step 3: Creative Output",
+            title: "Step 3: Create & Send Invoices",
             content: (
                 <div>
                     <p className="mb-4 text-xs font-normal text-neutral-800 md:text-sm dark:text-neutral-200">
-                        Get professional-quality results instantly. Download, share, or iterate on your creations with advanced editing tools.
+                        Generate invoices from time logs or add custom items. Export as PDF, send via email, and track status: Draft, Sent, Paid, or Overdue.
                     </p>
                     <div className="mb-8">
                         <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-                            🖼️ High-resolution downloads
+                            🧾 Auto-calc from time & rates
                         </div>
                         <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-                            📱 Multiple format support
+                            📤 Email to client
                         </div>
                         <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-                            🔄 Iterative refinement
+                            🖨️ Export PDF
                         </div>
                         <div className="flex items-center gap-2 text-xs text-neutral-700 md:text-sm dark:text-neutral-300">
-                            💾 Cloud storage integration
+                            ✅ Track Paid / Overdue
                         </div>
                     </div>
                     <div className="grid grid-cols-2 gap-4">
                         <div className="h-20 w-full rounded-lg bg-gradient-to-br from-yellow-500 to-orange-600 flex items-center justify-center md:h-44 lg:h-60">
-                            <span className="text-white font-semibold text-sm">Generated Art</span>
+                            <span className="text-white font-semibold text-sm">New Invoice</span>
                         </div>
                         <div className="h-20 w-full rounded-lg bg-gradient-to-br from-teal-500 to-cyan-600 flex items-center justify-center md:h-44 lg:h-60">
-                            <span className="text-white font-semibold text-sm">Video Output</span>
+                            <span className="text-white font-semibold text-sm">Add Items</span>
                         </div>
                         <div className="h-20 w-full rounded-lg bg-gradient-to-br from-lime-500 to-green-600 flex items-center justify-center md:h-44 lg:h-60">
-                            <span className="text-white font-semibold text-sm">Style Variants</span>
+                            <span className="text-white font-semibold text-sm">Export PDF</span>
                         </div>
                         <div className="h-20 w-full rounded-lg bg-gradient-to-br from-fuchsia-500 to-pink-600 flex items-center justify-center md:h-44 lg:h-60">
-                            <span className="text-white font-semibold text-sm">Download Options</span>
+                            <span className="text-white font-semibold text-sm">Mark Paid</span>
                         </div>
                     </div>
                 </div>
@@ -121,11 +121,11 @@ export function Guide() {
                         className=" flex items-center space-x-2"
                     >
                                                 <Sparkles className="h-4 w-4" />
-                        <span className="font-semibold">Guide</span>
+                        <span className="font-semibold">How it Works</span>
                     </HoverBorderGradient>
                 </div>
                 <div className="flex items-center justify-center">
-                    <SparklesText>It works like Magic</SparklesText>
+                    <SparklesText>From Time to Invoice in Minutes</SparklesText>
                 </div>
             </div>
 

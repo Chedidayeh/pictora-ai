@@ -30,9 +30,9 @@ export default function Home() {
         <Hero />
       </AnimatedSection>
 
-      <AnimatedSection>
+      {/* <AnimatedSection>
         <Guide />
-      </AnimatedSection>
+      </AnimatedSection> */}
 
       <AnimatedSection>
         <Features />

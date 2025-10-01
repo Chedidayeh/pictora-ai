@@ -15,10 +15,10 @@ import {
 } from "lucide-react";
 
 const benefits = [
-    "Start with 10 free credits",
+    "Track time in seconds",
+    "Generate branded invoices",
     "No credit card required",
-    "Cancel anytime",
-    "24/7 customer support"
+    "Cancel anytime"
 ];
 
 export default function CallToAction() {
@@ -36,17 +36,16 @@ export default function CallToAction() {
               className="flex items-center space-x-2"
             >
               <Sparkles className="h-4 w-4" />
-              <span className="font-semibold">Ready to Create?</span>
+              <span className="font-semibold">Ready to Bill Smarter?</span>
             </HoverBorderGradient>
           </div>
           
           <div className="flex items-center justify-center mb-6">
-            <SparklesText>Transform Your Ideas into Reality</SparklesText>
+            <SparklesText>From Time Tracking to Paid Invoices</SparklesText>
           </div>
           
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg mb-8">
-            Join thousands of creators who are already using Pictora AI to bring their visions to life. 
-            Start creating stunning visuals in minutes, not hours.
+            Join thousands of freelancers using Trackify to track hours, manage clients, and get paid faster.
           </p>
 
           {/* Benefits */}
@@ -69,8 +68,7 @@ export default function CallToAction() {
               </div>
               <h3 className="text-2xl font-bold mb-4">Start Free Today</h3>
               <p className="text-muted-foreground mb-6">
-                Get 10 free credits and start creating amazing visuals right away. 
-                No strings attached, no credit card required.
+                Create your first client and project, track time, and send your first invoice—all free.
               </p>
               <Button size="lg" className="w-full group-hover:scale-105 transition-transform duration-200">
                 Get Started Free
@@ -86,8 +84,7 @@ export default function CallToAction() {
               </div>
               <h3 className="text-2xl font-bold mb-4">See It In Action</h3>
               <p className="text-muted-foreground mb-6">
-                Schedule a personalized demo and see how Pictora AI can transform 
-                your creative workflow.
+                Schedule a quick walkthrough and see how Trackify streamlines time tracking and invoicing.
               </p>
               <Button size="lg" variant="outline" className="w-full group-hover:scale-105 transition-transform duration-200">
                 Book a Demo
@@ -110,13 +107,11 @@ export default function CallToAction() {
             </div>
             <div className="flex items-center gap-2">
               <Users className="h-5 w-5 text-blue-600" />
-              <span className="text-sm font-medium">50K+ Users</span>
+              <span className="text-sm font-medium">20K+ Freelancers</span>
             </div>
           </div>
           
-          <p className="text-xs text-muted-foreground">
-            Trusted by creators, marketers, and businesses worldwide
-          </p>
+          <p className="text-xs text-muted-foreground">Trusted by freelancers worldwide</p>
         </div>
       </div>
     </section>

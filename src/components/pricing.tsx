@@ -12,26 +12,26 @@ import {
     Crown,
     Building,
     Check,
-    Zap,
-    Monitor,
+    ReceiptText,
+    Timer,
     Shield
 } from "lucide-react";
 
 const pricingPlans = [
     {
-        name: "Free Tier",
+        name: "Free",
         monthlyPrice: "$0",
         annualPrice: "$0",
         period: "forever",
-        credits: "10 free credits",
-        description: "Perfect for trying out Pictora AI",
+        credits: "Up to 3 clients",
+        description: "Start tracking time and sending your first invoices",
         icon: Gift,
-        badge: "Best for beginners",
+        badge: "Great to start",
         features: [
-            "10 free credits on signup",
-            "Standard resolution images",
-            "Basic video generation",
-            "Personal library access",
+            "1 active project",
+            "Manual time entries",
+            "Basic invoices (PDF)",
+            "Email login",
             "Community support"
         ],
         buttonText: "Get Started Free",
@@ -39,62 +39,61 @@ const pricingPlans = [
         gradient: "from-gray-500 to-gray-600"
     },
     {
-        name: "Starter Plan",
-        monthlyPrice: "$9",
-        annualPrice: "$7",
+        name: "Starter",
+        monthlyPrice: "$12",
+        annualPrice: "$9",
         period: "month",
-        credits: "100 credits",
-        description: "Ideal for hobbyists and small projects",
-        icon: Star,
+        credits: "Unlimited clients",
+        description: "Essential tools for solo freelancers",
+        icon: Timer,
         badge: "Most Popular",
         features: [
-            "100 credits per month",
-            "Standard resolution",
-            "Image & video generation",
-            "Personal library",
-            "Email support",
-            "Cancel anytime"
+            "Unlimited projects",
+            "Built-in timer",
+            "Generate invoices from time logs",
+            "Custom branding",
+            "Email & Google login",
+            "Email support"
         ],
         buttonText: "Choose Starter",
         popular: true,
         gradient: "from-blue-500 to-blue-600"
     },
     {
-        name: "Pro Plan",
+        name: "Pro",
         monthlyPrice: "$29",
         annualPrice: "$23",
         period: "month",
-        credits: "500 credits",
-        description: "For professionals and content creators",
-        icon: Crown,
+        credits: "Advanced invoicing",
+        description: "For pros who need automation and reporting",
+        icon: ReceiptText,
         badge: "Best Value",
         features: [
-            "500 credits per month",
-            "High resolution images",
-            "Priority generation",
-            "Advanced video tools",
+            "Recurring invoices",
+            "Invoice reminders & overdue tracking",
+            "Tax/VAT support",
+            "Advanced reports & exports",
             "Priority support",
-            "Commercial use rights"
+            "Custom fields"
         ],
         buttonText: "Go Pro",
         popular: false,
         gradient: "from-purple-500 to-purple-600"
     },
     {
-        name: "Business Plan",
+        name: "Business",
         monthlyPrice: "$99",
         annualPrice: "$79",
         period: "month",
-        credits: "2,500 credits",
-        description: "For teams and enterprises",
+        credits: "Teams & API",
+        description: "For agencies and teams that need collaboration",
         icon: Building,
         badge: "Enterprise",
         features: [
-            "2,500 credits per month",
-            "Ultra HD resolution",
-            "Commercial license",
-            "API access",
             "Team collaboration",
+            "Roles & permissions",
+            "API access",
+            "SAML SSO",
             "Dedicated support",
             "Custom integrations"
         ],
@@ -126,7 +125,7 @@ export function Pricing() {
                     <SparklesText>Simple, Transparent Pricing</SparklesText>
                 </div>
                 <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-                    Choose the perfect plan for your creative needs. Start free and upgrade as you grow.
+                    Simple, transparent pricing for freelancers and teams. Start free and upgrade as you grow.
                 </p>
             </div>
 
@@ -243,14 +242,12 @@ export function Pricing() {
 
                 <div className="text-center">
                     <p className="text-muted-foreground mb-4">
-                        Need a custom plan? Contact our sales team for enterprise solutions.
+                        Need a custom plan? Contact our team for tailored solutions.
                     </p>
                     <Button variant="outline" className="mr-4">
                         Contact Sales
                     </Button>
-                    <Button variant="ghost">
-                        View Credits Pricing
-                    </Button>
+                <Button variant="ghost">View Feature Comparison</Button>
                 </div>
             </div>
         </div>

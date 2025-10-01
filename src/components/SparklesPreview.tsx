@@ -6,7 +6,7 @@ export function SparklesPreview() {
   return (
     <div className="h-[40rem] gap-1 w-full flex flex-col items-center justify-center overflow-hidden rounded-md">
       <h1 className="text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
-        Meet Pictora AI <br />
+        Meet Trackify <br />
         <p className="mt-4 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto">
           A subtle yet effective spotlight effect, because the previous version
           is used a bit too much these days.

@@ -5,56 +5,57 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/
 import { Badge } from "./ui/badge";
 import {
   Sparkles,
-  Video,
+  Timer,
   FolderOpen,
   User,
   CreditCard,
-  Zap,
-  Smartphone,
+  FileText,
+  BarChart3,
+  LogIn,
   Shield
 } from "lucide-react";
 import { InteractiveHoverButton } from "./magicui/interactive-hover-button";
 
 const features = [
   {
-    icon: Sparkles,
-    title: "AI Image Generation",
-    description: "Turn your imagination into visuals. Simply describe what you want in text, and our AI transforms it into high-quality images.",
-  },
-  {
-    icon: Video,
-    title: "AI Video Creation",
-    description: "Bring your ideas to life with image-to-video or text-to-video tools. Perfect for social media clips, ads, and creative projects.",
+    icon: Timer,
+    title: "Time Tracking",
+    description: "Start/stop timers, add manual entries, and edit logs with ease.",
   },
   {
     icon: FolderOpen,
-    title: "Personal Library",
-    description: "Every image or video you generate is saved to your personal dashboard. Download, re-use, or share your creations anytime.",
+    title: "Clients & Projects",
+    description: "Organize work by client and project. Support hourly or fixed rates.",
+  },
+  {
+    icon: FileText,
+    title: "Invoicing",
+    description: "Generate invoices from time logs, add items, export PDF, send via email.",
+  },
+  {
+    icon: BarChart3,
+    title: "Dashboard & Reports",
+    description: "See hours, income, and outstanding invoices with powerful filters.",
   },
   {
     icon: User,
-    title: "User Profiles",
-    description: "Track your usage, manage credits, and customize your account in one place.",
+    title: "Profile & Rates",
+    description: "Set currency, hourly rate, and company details for branded invoices.",
   },
   {
     icon: CreditCard,
-    title: "Flexible Payments",
-    description: "Choose between a pay-as-you-go credits system or a monthly subscription. Only pay for what you use.",
+    title: "Payments & Status",
+    description: "Track Draft, Sent, Paid, and Overdue invoices at a glance.",
   },
   {
-    icon: Zap,
-    title: "Fast & Simple",
-    description: "Minimal design, instant results. No complicated settings — just type, click, and create.",
-  },
-  {
-    icon: Smartphone,
-    title: "Fully Responsive",
-    description: "Generate and manage your creations from desktop, tablet, or mobile — anywhere, anytime.",
+    icon: LogIn,
+    title: "Email & Google Login",
+    description: "NextAuth support for email and Google OAuth.",
   },
   {
     icon: Shield,
     title: "Secure & Reliable",
-    description: "All generations are processed securely via trusted AI models. Your content and data stay safe.",
+    description: "Your data is protected with best practices and privacy in mind.",
   }
 ];
 
@@ -73,10 +74,10 @@ export function Features() {
           </HoverBorderGradient>
         </div>
         <div className="flex items-center justify-center">
-          <SparklesText>Your Creative Journey Starts Here</SparklesText>
+          <SparklesText>Everything You Need to Run Your Freelance Business</SparklesText>
         </div>
         <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-          Discover the powerful features that make Pictora AI the perfect creative companion for your digital content needs.
+          Discover the powerful features that make Trackify the perfect creative companion for your digital content needs.
         </p>
       </div>
 
@@ -111,10 +112,10 @@ export function Features() {
 
       {/* Call to action */}
       <div className="text-center mt-16">
-        <InteractiveHoverButton>Start Creating Today</InteractiveHoverButton>
+        <InteractiveHoverButton>Start Tracking Today</InteractiveHoverButton>
 
         <p className="text-muted-foreground mt-4 text-sm">
-          Join thousands of creators who trust Pictora AI for their content needs
+          Join thousands of freelancers who trust Trackify to get paid faster
         </p>
       </div>
     </div>

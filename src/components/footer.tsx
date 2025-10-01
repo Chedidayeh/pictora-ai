@@ -88,7 +88,7 @@ export default function FooterSection() {
             </div>
             <h3 className="text-2xl font-bold mb-2">Stay in the Loop</h3>
             <p className="text-muted-foreground max-w-md mx-auto">
-              Get the latest updates on new features, tips, and creative inspiration delivered to your inbox.
+              Get the latest updates on features, tips, and best practices for freelancers.
             </p>
           </div>
           
@@ -119,18 +119,17 @@ export default function FooterSection() {
           aria-label="Go to homepage"
         >
           <SparklesIcon className={`w-5 `} />
-          Pictora AI
+          Trackify
         </Link>
             <p className="text-muted-foreground mb-6 max-w-sm">
-              Transform your ideas into stunning visuals with AI-powered image and video generation. 
-              Join thousands of creators worldwide.
+              Track time, manage clients and projects, generate invoices, and get paid faster.
             </p>
             
             {/* Contact Info */}
             <div className="space-y-3 text-sm">
               <div className="flex items-center gap-2 text-muted-foreground">
                 <Mail className="h-4 w-4" />
-                <span>hello@pictora.ai</span>
+                <span>hello@trackify.dev</span>
               </div>
               <div className="flex items-center gap-2 text-muted-foreground">
                 <Phone className="h-4 w-4" />
@@ -196,7 +195,7 @@ export default function FooterSection() {
         {/* Bottom Section */}
         <div className="mt-12 pt-8 border-t flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Pictora AI. All rights reserved.
+            © {new Date().getFullYear()} Trackify. All rights reserved.
           </div>
           
           {/* Social Links */}

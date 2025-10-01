@@ -8,7 +8,7 @@ import { InteractiveHoverButton } from "./magicui/interactive-hover-button";
 import { FlipWords } from "./ui/flip-words";
 
 export function Hero() {
-  const words = ["powerful", "modern", "intelligent", "advanced", "cutting-edge"];
+  const words = ["time", "clients", "projects", "invoices", "cash flow"];
   return (
     <div
       className="min-h-screen w-full rounded-md flex flex-col items-center justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden"
@@ -23,25 +23,25 @@ export function Hero() {
             )}
           >
             <AnimatedShinyText className="inline-flex items-center justify-center px-4 py-1 transition ease-out hover:text-neutral-600 hover:duration-300 hover:dark:text-neutral-400">
-              <span>✨ AI Generation App</span>
+              <span>✨ Freelancer Time Tracking & Invoicing</span>
               <ArrowRightIcon className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
             </AnimatedShinyText>
           </div>
         </div>
 
         <h1 className="text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50 mb-6">
-          Meet Pictora AI
+          Track Time. Bill Faster. Get Paid.
         </h1>
         <div className="flex justify-center items-center mb-8">
           <div className="text-lg mx-auto font-normal text-neutral-500">
-          Leverage
+            Manage
             <FlipWords words={words} />
-             AI models.
+            — all in one place.
           </div>
         </div>
         
         <div className="flex justify-center text-center gap-2 mb-12">
-          <InteractiveHoverButton>Get Started</InteractiveHoverButton>
+          <InteractiveHoverButton>Start Tracking</InteractiveHoverButton>
           <InteractiveHoverButton>See Demo</InteractiveHoverButton>
         </div>
 
@@ -57,7 +57,7 @@ export function Hero() {
               </div>
               <div className="flex-1 flex justify-center">
                 <div className="bg-neutral-700/50 rounded px-3 py-1 text-xs text-neutral-300">
-                  app.pictora-ai.com
+                  app.trackify.dev
                 </div>
               </div>
             </div>
@@ -66,9 +66,9 @@ export function Hero() {
             <div className="relative aspect-video bg-gradient-to-br from-neutral-900 to-neutral-800 flex items-center justify-center">
               <div className="text-center">
                 <div className="w-16 h-16 mx-auto mb-4 rounded-lg bg-gradient-to-br from-primary/20 to-primary/10 flex items-center justify-center">
-                  <span className="text-2xl">📊</span>
+                  <span className="text-2xl">⏱️</span>
                 </div>
-                <p className="text-neutral-400 text-sm">Dashboard Screenshot</p>
+                <p className="text-neutral-400 text-sm">Time Tracker & Invoices</p>
               </div>
             </div>
           </div>

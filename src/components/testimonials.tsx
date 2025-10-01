@@ -10,75 +10,75 @@ import {
     Quote,
     Users,
     Zap,
-    Heart,
+    Wallet,
     ThumbsUp,
     Shield,
-    Lightbulb,
-    Image
+    Timer,
+    FileText
 } from "lucide-react";
 
 const testimonials = [
     {
         name: "Sarah Chen",
-        role: "Content Creator",
+        role: "Freelance Designer",
         avatar: "SC",
         rating: 5,
-        text: "Pictora AI has completely transformed my content creation workflow. I can generate stunning visuals in minutes that used to take hours. The quality is incredible!",
-        highlight: "Transformed my workflow"
+        text: "Trackify made time tracking painless and invoicing professional. I cut admin time by 70% and get paid faster.",
+        highlight: "70% less admin"
     },
     {
         name: "Marcus Rodriguez",
-        role: "Marketing Director",
+        role: "Web Developer",
         avatar: "MR",
         rating: 5,
-        text: "The AI video generation feature is a game-changer for our social media campaigns. We've seen a 300% increase in engagement since using Pictora AI.",
-        highlight: "300% engagement increase"
+        text: "The built-in timer and project rates keep everything accurate. My invoices went from messy to automated.",
+        highlight: "Accurate billing"
     },
     {
         name: "Emily Watson",
-        role: "Freelance Designer",
+        role: "Copywriter",
         avatar: "EW",
         rating: 5,
-        text: "As a designer, I'm blown away by the creativity and quality of images Pictora AI produces. It's like having a creative partner that never sleeps.",
-        highlight: "Creative partner"
+        text: "I love the clean timesheets and branded invoices. Clients pay on time because everything is crystal clear.",
+        highlight: "On-time payments"
     },
     {
         name: "David Kim",
-        role: "Startup Founder",
+        role: "Agency Owner",
         avatar: "DK",
         rating: 5,
-        text: "The pricing is incredibly fair for what you get. We've saved thousands on stock photos and design work. The ROI is phenomenal.",
-        highlight: "Phenomenal ROI"
+        text: "Team features and API access sealed the deal. We standardized invoicing across our clients in a week.",
+        highlight: "Standardized invoicing"
     },
     {
         name: "Lisa Thompson",
-        role: "E-commerce Owner",
+        role: "Photographer",
         avatar: "LT",
         rating: 5,
-        text: "Generating product mockups and lifestyle images has never been easier. Our conversion rates have improved significantly since we started using Pictora AI.",
-        highlight: "Improved conversions"
+        text: "Tracking shoots by client and project keeps me organized. Exporting PDF invoices is a breeze.",
+        highlight: "Organized & fast"
     },
     {
         name: "Alex Johnson",
-        role: "Agency Owner",
+        role: "Consultant",
         avatar: "AJ",
         rating: 5,
-        text: "The API integration is seamless, and the team support is outstanding. Pictora AI has become an essential tool in our client work.",
-        highlight: "Essential tool"
+        text: "Recurring invoices and reminders helped me reduce late payments drastically.",
+        highlight: "Fewer late payments"
     }
 ];
 
 const stats = [
     {
         icon: Users,
-        value: "50K+",
-        label: "Happy Users",
+        value: "20K+",
+        label: "Freelancers",
         iconColor: "text-blue-500"
     },
     {
-        icon: Image,
-        value: "1M+",
-        label: "Images Generated",
+        icon: Timer,
+        value: "10M+",
+        label: "Hours Tracked",
         iconColor: "text-purple-500"
     },
     {
@@ -110,10 +110,10 @@ export function Testimonials() {
                     </HoverBorderGradient>
                 </div>
                 <div className="flex items-center justify-center">
-                    <SparklesText>Loved by Creators Worldwide</SparklesText>
+                    <SparklesText>Loved by Freelancers Worldwide</SparklesText>
                 </div>
                 <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-                    Join thousands of satisfied users who trust Pictora AI for their creative needs.
+                    Join thousands of freelancers who trust Trackify to track time and get paid.
                 </p>
             </div>
 
@@ -185,7 +185,7 @@ export function Testimonials() {
             <div className="mt-16 text-center">
                 <div className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-muted/50 border">
                     <Shield className="h-5 w-5 text-green-600" />
-                    <span className="text-sm font-medium">Trusted by creators from 50+ countries</span>
+                    <span className="text-sm font-medium">Trusted by freelancers in 50+ countries</span>
                 </div>
             
             </div>
